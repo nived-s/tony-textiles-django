@@ -8,11 +8,13 @@
 }
 
 .main{
+    padding-top: 2rem;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .btn-and-price{

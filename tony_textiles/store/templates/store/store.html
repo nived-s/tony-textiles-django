@@ -1,7 +1,107 @@
 {% extends 'store/main.html' %}
 {% load static %}
+
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+{% endblock %}
+
 {% block content %}
-     <h3>Store</h3>
+
+     <!-- main div for whole card place holders -->
+     <div class="main">
+          <!-- div for each card -->
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+          
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+
+          <div class="card shadow" style="width: 15rem;">
+               <img class="img-style" src="{% static '/images/item_img_res.jpg' %}" alt="Card image cap">
+               <div class="card-body">
+                    <h5 class="card-title">Product Name</h5>
+                    <div class="btn-and-price">
+                         <a href="#" class="btn btn-primary">Add to cart</a>
+                         <h5><b>$20</b></h5>
+                    </div>
+               </div>
+          </div>
+
+     </div>
+
+
 {% endblock content %}
 
 

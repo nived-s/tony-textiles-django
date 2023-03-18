@@ -3,6 +3,9 @@
     font-family: 'Space Mono', monospace;
 }
 
+
+/* store.html  */
+
 .img-style{
     padding: 1rem;
 }
@@ -27,4 +30,46 @@
 .btn-primary{
     background-color: #4C4588;
     border-color: #4C4588;
+}
+
+
+
+/* cart.html  */
+
+.cart-page{
+    margin: 80px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.item-table th{
+    text-align: left;
+    background-color: rgb(88, 98, 98);
+    color: aliceblue;
+    padding: 1vh;
+    font-weight: normal;
+}
+
+tr{
+    background-color: rgb(230, 248, 248);
+    border: 5px auto;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-info img{
+    width: 80px;
+    height: 80px;
+}
+
+.cart-page input{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
 }

@@ -3,7 +3,7 @@
 
 {% block css %}
 {{ block.super }}
-<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -15,6 +15,30 @@
                     <th>Quantity</th>
                     <th>Total</th>
                </tr>
+               <tr>
+                    <td>
+                         <div class="cart-info">
+                              <img src="{%static 'images/item_img_res.jpg'%}" alt="">
+                              <p>Product Name</p>
+                         </div>
+                    </td>
+                    <td>$50</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$150</td>
+               </tr>
+
+               <tr>
+                    <td>
+                         <div class="cart-info">
+                              <img src="{%static 'images/item_img_res.jpg'%}" alt="">
+                              <p>Product Name</p>
+                         </div>
+                    </td>
+                    <td>$50</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$150</td>
+               </tr>
+
                <tr>
                     <td>
                          <div class="cart-info">

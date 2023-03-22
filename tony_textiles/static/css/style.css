@@ -64,7 +64,6 @@ table{
 
 .cart-info{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     grid-area: 20px;
 }
@@ -79,4 +78,10 @@ table{
     width: 50px;
     height: 30px;
     padding: 5px;
+}
+
+.total-table{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
 }

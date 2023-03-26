@@ -1,5 +1,33 @@
 {% extends 'store/main.html' %}
 {% load static %}
 {% block content %}
-     <h3>checkout</h3>
+
+<div class="row-checkout">
+     <div class="column-checkout">
+          <form id="form">
+               <div class="user-info">
+                    <input required  type="text" name="name" placeholder="Name..">
+                    <input required  type="email" name="email" placeholder="Email..">
+               </div>
+
+               <hr>
+               <div class="shipping-info">
+                    <p>Shipping Information</p>
+                    <input required  type="text" name="address" placeholder="Address..">
+                    <input required  type="text" name="city" placeholder="City..">
+                    <input required  type="text" name="state" placeholder="State..">
+                    <input required  type="text" name="pin" placeholder="Pin Code..">
+               </div>
+
+               <hr>
+               <input type="submit" class="btn btn-success btn-block" value="Continue" id="form-button">
+     
+               </div>
+          </form>
+
+     <div class="column-checkout">
+          <p>hello</p>
+     </div>
+</div>
+                        
 {% endblock content %}

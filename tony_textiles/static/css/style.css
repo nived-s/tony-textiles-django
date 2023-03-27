@@ -121,5 +121,11 @@ table{
     border: 1rem;
 }
 
+.cart-info-checkout{
+    display: flex;
+    gap: 1rem;
+}
+
+
 
 

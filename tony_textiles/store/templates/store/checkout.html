@@ -3,6 +3,8 @@
 {% block content %}
 
 <div class="row-checkout">
+
+     <!-- shipping address and information  -->
      <div class="column-checkout">
           <form id="form">
                <div class="user-info">
@@ -25,8 +27,18 @@
                </div>
           </form>
 
+     <!-- total and summary  -->
      <div class="column-checkout">
-          <p>hello</p>
+          <a  class="btn btn-outline-dark" href="{% url 'cart' %}">&#x2190; Back to Cart</a>
+          <hr>
+
+          <h3>Order Summary</h3>
+          <hr>
+          <div class="checkout-order-summary">
+               <p>Items:</p>
+               <p><strong> Total Pay:</strong></p>
+
+          </div>
      </div>
 </div>
                         
